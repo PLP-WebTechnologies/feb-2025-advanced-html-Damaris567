@@ -51,6 +51,9 @@
         <label for="password">Password</label>
         <input type="password" name="password" id="password">
         <br><br> 
+        <label for="date">date</label>
+        <input type="date" name="date" id="date">
+        <br><br>
         <select name="country" id="country">
             <option >select country</option>
             <option value="kenya">Kenya</option>
