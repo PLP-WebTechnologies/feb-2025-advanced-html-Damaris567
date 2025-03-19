@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <!--ordered list  -->
+    <ol type="i">
+        <li>Hunter </li>
+        <li>Damaris</li>
+        <li>World </li>
+    </ol>
+    <img src="moon.jpg" alt="moon" width="100" height="110">
+    <br><br>
+      <!--table -->
+    <table border="1">	
+        <tr>
+        
+            <th> name </th>
+            <th>adress</th>
+            <th>email</th>
+            <th>contact</th>
+        </tr>
+        <tr>
+            <td>Damaris </td>
+            <td>80100 msa</td>
+            <td>damarwanjiku123@gmail.com</td>
+            <td>0721816460</td>
+        </tr> 
+        <tr>
+            <td>hunter </td>
+            <td>80 msa</td>
+            <td>hunterngari23@gmail.com</td>
+            <td>0787904567</td>
+        </tr> 
+        <tr>
+            <td>world </td>
+            <td>80100 nai </td>
+            <td>damarwanjikuqgmail.com</td>
+            <td>0112346784</td>
+        </tr> 
+    </table>
+    <br><br>
+      <!--registration form  -->
+    <form action="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+        <br><br> 
+        <select name="country" id="country">
+            <option >select country</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="rwanda">Rwanda</option>
+        </select>
+        <br><br>
+        <label for="gender ">gender </label>
+        <input type="radio" id="radio" name="gender " value="female" >female
+        <input type="radio" id="radio" name="gender" value="male">male 
+        <br><br>
+        <input type="checkbox" name="available" value="available">available
+        <br><br>
+        <button>submit </button>
+    </form> 
+
+
+</body>
+</html>
